@@ -3,7 +3,7 @@
  * Абстрактный класс. Cодержит общую логику для контроллеров, которые 
  * используются в панели администратора
  */
-class AdminBase
+Abstract class AdminBase
 {
 	public function __construct()
 	{
